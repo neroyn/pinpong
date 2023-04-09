@@ -52,7 +52,7 @@ clock = time.Clock()
 
 player_1 = Player('platform.jpg', 10, 200, 30, 90, 5, K_w, K_s)
 player_2 = Player('platform.jpg', 560, 200, 30, 90, 5, K_UP, K_DOWN)
-ball = Ball('ball.jpg', WIDTH//2, HEIGHT//4, 32, 32, 3)
+ball = Ball('ball.png', WIDTH//2, HEIGHT//4, 32, 32, 3)
 
 run = True
 while run:
@@ -72,5 +72,3 @@ while run:
     
     display.update()
     clock.tick(FPS)
-
-  
